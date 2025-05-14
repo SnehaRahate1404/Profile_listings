@@ -1,0 +1,8 @@
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}

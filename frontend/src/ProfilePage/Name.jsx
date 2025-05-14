@@ -1,7 +1,12 @@
+import './Name.css'
+
 export default function Name(){
     return(
         <>
-            <h1>Name</h1>
+            <div className="name">
+                <img src="" alt="" />
+                <p>Sneha Manoj Rahate</p>
+            </div>
         </>
     )
 }

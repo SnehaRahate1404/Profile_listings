@@ -1,7 +1,18 @@
+import './Skills.css'
+
 export default function Skills(){
     return(
         <>
-            <h1>Skills</h1>
+           <div className="skills">
+                <div className="skillsheading">
+                    <p>Skills</p>
+                </div>
+                <ul>
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+            </div>
         </>
     )
 }

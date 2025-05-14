@@ -1,0 +1,13 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+.skillsheading{
+    background-color: #021C41;
+    color: white;
+    width: 100%;
+}

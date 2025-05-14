@@ -1,7 +1,16 @@
+import './Aboutme.css'
+
 export default function AboutMe(){
     return(
         <>
-            <h1>About me</h1>
+            <div className="aboutme">
+                <div className="description">
+                    <p>Description</p>
+                </div>
+                <div className="contact">
+                    <p>Contact</p>
+                </div>
+            </div>
         </>
     )
 }

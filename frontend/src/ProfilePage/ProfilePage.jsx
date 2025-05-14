@@ -5,12 +5,20 @@ import Hero from "./Hero";
 import About from "../LandingPage/About";
 
 export default function ProfilePage(){
+
+    let style = {
+        backgroundColor : "#E6F5FF",
+        height:"100vh"
+    }
+
     return(
         <>
-            <Navbar/>
-            <Hero/>
-            <AboutMe/>
-            <Footer/>
+            <div style={style}>
+                <Navbar/>
+                <Hero/>
+                <AboutMe/>
+                <Footer/>
+            </div>
         </>
     )
 }
