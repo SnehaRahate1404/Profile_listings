@@ -1,0 +1,11 @@
+.Techstack{
+    background-color: #08304B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.techStackContent{
+    margin: 40px 0px 30px 20px;
+    color: white;
+}
