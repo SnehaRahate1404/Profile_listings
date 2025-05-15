@@ -1,0 +1,14 @@
+.aboutusImg{
+    margin-top: 5rem;
+    width: 100%;
+}
+.aboutUs{
+    background-color: #E6F5FF ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutUsContent{
+    text-align: center;
+    margin: 10px;
+}

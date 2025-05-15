@@ -1,7 +1,12 @@
-export default function Name(){
+import './Name.css'
+
+export default function Name({ user }){
     return(
         <>
-            <h1>Name</h1>
+            <div className="name">
+                <img src={`/${user.avatar}`} alt="" className='userimage' />
+                <p>{ user.name }</p>
+            </div>
         </>
     )
 }

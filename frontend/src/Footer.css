@@ -1,0 +1,18 @@
+.footerContents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright ,.github ,.mail{
+    margin: 20px;
+    width: fit-content;
+}
+.copyright i ,.github i ,.mail i{
+    margin: 10px;
+}
+.copyright{
+    color: grey;
+}
+.footer-socials:hover{
+    color: grey;
+}
