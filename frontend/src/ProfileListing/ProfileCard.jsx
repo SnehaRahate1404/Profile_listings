@@ -1,16 +1,15 @@
 import './ProfileCard.css'
+import { Link } from 'react-router-dom';
 
-export default function ProfileCard(){
-    return(
-        <>
-            <div class="card">
-                <img src="" class="card-img-top" alt="..."/>
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                    <a href="/ProfilePage" class="btn btn-primary">Go somewhere</a>
-                </div>
+export default function ProfileCard({ user }) {
+    return (
+        <div className="card">
+            <img src={`/${user.avatar}`} className="card-img-top" alt={user.name} />
+            <div className="card-body">
+                <h5 className="card-title">{user.name}</h5>
+                <p className="card-text">{user.description}</p>
+                <Link to={`/ProfilePage/${user._id}`} className="btn btn-primary">View Profile</Link>
             </div>
-        </>
-    )
+        </div>
+    );
 }
