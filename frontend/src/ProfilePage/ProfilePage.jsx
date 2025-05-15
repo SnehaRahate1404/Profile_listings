@@ -2,9 +2,8 @@ import AboutMe from "./AboutMe";
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 import Hero from "./Hero";
-import About from "../LandingPage/About";
 
-export default function ProfilePage(){
+export default function ProfilePage({user}){
 
     let style = {
         backgroundColor : "#E6F5FF",
@@ -16,7 +15,7 @@ export default function ProfilePage(){
             <div style={style}>
                 <Navbar/>
                 <Hero/>
-                <AboutMe/>
+                <AboutMe user={user} />
                 <Footer/>
             </div>
         </>
